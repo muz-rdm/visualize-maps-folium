@@ -8,8 +8,6 @@ Visualize maps using Folium package and different basemap styles.
 - Visualize Maps using Folium.ipynb
 
 # Result
-![Uploading image.png…]()
-
 
 # Reference
 - https://medium.com/datasciencearth/map-visualization-with-folium-d1403771717

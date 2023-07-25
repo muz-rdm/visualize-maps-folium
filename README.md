@@ -8,6 +8,7 @@ Visualize maps using Folium package and different basemap styles.
 - Visualize Maps using Folium.ipynb
 
 # Result
+![alt text](https://github.com/muz-rdm/Visualize-Maps-Folium/blob/main/image/Public_Hospital_OSM.png?raw=true)
 
 # Reference
 - https://medium.com/datasciencearth/map-visualization-with-folium-d1403771717

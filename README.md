@@ -8,13 +8,13 @@ Visualize maps using Folium package and different basemap styles.
 - Visualize Maps using Folium.ipynb
 
 # Result
-## OSM Basemap
+OSM Basemap
 ![alt text](https://github.com/muz-rdm/Visualize-Maps-Folium/blob/main/image/Public_Hospital_OSM.png?raw=true)
 
-## Stamen Terrain
+Stamen Terrain
 ![alt text](https://github.com/muz-rdm/Visualize-Maps-Folium/blob/main/image/Public_Hospital_Stamen_Terrain.png?raw=true)
 
-## ESRI Satellite Basemap
+ESRI Satellite Basemap
 ![alt text](https://github.com/muz-rdm/Visualize-Maps-Folium/blob/main/image/Public_Hospital_ESRI_Satellite.png?raw=true)
 
 # Reference

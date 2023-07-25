@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e88d225bb865a05766119ffbda51e5ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e88d225bb865a05766119ffbda51e5ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e88d225bb865a05766119ffbda51e5ce = L.map(
+                "map_e88d225bb865a05766119ffbda51e5ce",
+                {
+                    center: [3.1594274185652185, 101.6074301478261],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2cdf35224951d8c637250955acbb18ee = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+            var circle_marker_758fa73430b7159814d59e2f079a284e = L.circleMarker(
+                [3.129074272, 101.7634505],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_a1f5508a4008b316009441f0a1082c9e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_311b1081a364a55853fe7a49848c029f = $(`<div id="html_311b1081a364a55853fe7a49848c029f" style="width: 100.0%; height: 100.0%;">Name: Hospital Ampang<br> Type: General Hospital<br> Address: Jalan Mewah Utara, Taman Pandan Mewah, 68000 Ampang, Selangor<br> Telephone: 03-42896000<br> Website: http://hampg.moh.gov.my<br> </div>`)[0];
+                popup_a1f5508a4008b316009441f0a1082c9e.setContent(html_311b1081a364a55853fe7a49848c029f);
+            
+        
+
+        circle_marker_758fa73430b7159814d59e2f079a284e.bindPopup(popup_a1f5508a4008b316009441f0a1082c9e)
+        ;
+
+        
+    
+    
+            var circle_marker_3c378eda951ef92a4a42dd8514d631fa = L.circleMarker(
+                [2.80292331, 101.4937635],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_dfa8fc62370e43052f756918036e6558 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_0fcea9645b118f5aaf95b1b96c2b579c = $(`<div id="html_0fcea9645b118f5aaf95b1b96c2b579c" style="width: 100.0%; height: 100.0%;">Name: Hospital Banting<br> Type: General Hospital<br> Address: Jalan Sultan Alam Shah, 42700 Banting, Selangor<br> Telephone: 03-31871333<br> Website: https://jknselangor.moh.gov.my/hbanting/<br> </div>`)[0];
+                popup_dfa8fc62370e43052f756918036e6558.setContent(html_0fcea9645b118f5aaf95b1b96c2b579c);
+            
+        
+
+        circle_marker_3c378eda951ef92a4a42dd8514d631fa.bindPopup(popup_dfa8fc62370e43052f756918036e6558)
+        ;
+
+        
+    
+    
+            var circle_marker_44bdbd79d6053fc70a1ffbdbe89f42e8 = L.circleMarker(
+                [2.993132138, 101.7928351],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_6c77b9e789d95b023ee74f136432448c = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_8fcf2e18b8fed6c89582a715b1879094 = $(`<div id="html_8fcf2e18b8fed6c89582a715b1879094" style="width: 100.0%; height: 100.0%;">Name: Hospital Kajang<br> Type: General Hospital<br> Address: Jalan Semenyih, Bandar Kajang, 43000 Kajang, Selangor<br> Telephone: 03-89133333<br> Website: http://hkjg.moh.gov.my/<br> </div>`)[0];
+                popup_6c77b9e789d95b023ee74f136432448c.setContent(html_8fcf2e18b8fed6c89582a715b1879094);
+            
+        
+
+        circle_marker_44bdbd79d6053fc70a1ffbdbe89f42e8.bindPopup(popup_6c77b9e789d95b023ee74f136432448c)
+        ;
+
+        
+    
+    
+            var circle_marker_fc76ff3feb8941f916b7eb96c93cb1dd = L.circleMarker(
+                [3.564445366, 101.6530587],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_d58d56987f287454bc5f25a87cd94499 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_dc1e50811526ee014f67457e655bd98e = $(`<div id="html_dc1e50811526ee014f67457e655bd98e" style="width: 100.0%; height: 100.0%;">Name: Hospital Kuala Kubu Bharu<br> Type: General Hospital<br> Address: Jalan Hospital, Pekan Kuala Kubu Bharu, 44000 Kuala Kubu Baru, Selangor<br> Telephone: 03-60641333<br> Website: https://jknselangor.moh.gov.my/hkkb/<br> </div>`)[0];
+                popup_d58d56987f287454bc5f25a87cd94499.setContent(html_dc1e50811526ee014f67457e655bd98e);
+            
+        
+
+        circle_marker_fc76ff3feb8941f916b7eb96c93cb1dd.bindPopup(popup_d58d56987f287454bc5f25a87cd94499)
+        ;
+
+        
+    
+    
+            var circle_marker_eb4a4bdb6e6e81479dda062b4803c647 = L.circleMarker(
+                [3.171805406, 101.7025758],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_34ce39ecb85e8bf05fc38b137bfd931f = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_135c0e78107bcf29bd0fd155cab9a6f8 = $(`<div id="html_135c0e78107bcf29bd0fd155cab9a6f8" style="width: 100.0%; height: 100.0%;">Name: Hospital Kuala Lumpur<br> Type: General Hospital<br> Address: Jalan Pahang, 50586 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur<br> Telephone: 03-26155555<br> Website: http://hkl.moh.gov.my/<br> </div>`)[0];
+                popup_34ce39ecb85e8bf05fc38b137bfd931f.setContent(html_135c0e78107bcf29bd0fd155cab9a6f8);
+            
+        
+
+        circle_marker_eb4a4bdb6e6e81479dda062b4803c647.bindPopup(popup_34ce39ecb85e8bf05fc38b137bfd931f)
+        ;
+
+        
+    
+    
+            var circle_marker_682e5e9dbc042f2daf6d213706480ec1 = L.circleMarker(
+                [3.292185919, 101.7310142],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_c81f4125835778bd5aac1ec6c9b7d8fa = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_06f5f130bac36bd4afd0e7504f9d4dbb = $(`<div id="html_06f5f130bac36bd4afd0e7504f9d4dbb" style="width: 100.0%; height: 100.0%;">Name: Hospital Orang Asli<br> Type: General Hospital<br> Address: KM 24, Jalan Pahang Lama, 53100 Gombak, Selangor<br> Telephone: 03-61892122<br> Website: https://jknselangor.moh.gov.my/hoag/<br> </div>`)[0];
+                popup_c81f4125835778bd5aac1ec6c9b7d8fa.setContent(html_06f5f130bac36bd4afd0e7504f9d4dbb);
+            
+        
+
+        circle_marker_682e5e9dbc042f2daf6d213706480ec1.bindPopup(popup_c81f4125835778bd5aac1ec6c9b7d8fa)
+        ;
+
+        
+    
+    
+            var circle_marker_36291a096caac6586998deaa5b3e53f9 = L.circleMarker(
+                [2.92919219, 101.674142],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_6da83fd6b845f612955420ebf7a5f87b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_593ddbad918a37c2fb577d9f1823c8bc = $(`<div id="html_593ddbad918a37c2fb577d9f1823c8bc" style="width: 100.0%; height: 100.0%;">Name: Hospital Putrajaya<br> Type: General Hospital<br> Address: Jalan P9, Presint 7, 62250 Putrajaya, Wilayah Persekutuan Putrajaya<br> Telephone: 03-83124200<br> Website: http://hpj.moh.gov.my/<br> </div>`)[0];
+                popup_6da83fd6b845f612955420ebf7a5f87b.setContent(html_593ddbad918a37c2fb577d9f1823c8bc);
+            
+        
+
+        circle_marker_36291a096caac6586998deaa5b3e53f9.bindPopup(popup_6da83fd6b845f612955420ebf7a5f87b)
+        ;
+
+        
+    
+    
+            var circle_marker_254b54a5fe3424de5ea11396830063a1 = L.circleMarker(
+                [3.106828471, 101.7281006],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_7ff0ebdaf1bb71cd8cf6080a4f970c3e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_c403a89664ea1fc120f95bd8f5e69de7 = $(`<div id="html_c403a89664ea1fc120f95bd8f5e69de7" style="width: 100.0%; height: 100.0%;">Name: Hospital Rehabilitasi Cheras<br> Type: General Hospital<br> Address: Jalan Yaacob Latif, Bandar Tun Razak, 56000 Cheras, Wilayah Persekutuan Kuala Lumpur<br> Telephone: 03-91453400<br> Website: https://hrc.moh.gov.my/<br> </div>`)[0];
+                popup_7ff0ebdaf1bb71cd8cf6080a4f970c3e.setContent(html_c403a89664ea1fc120f95bd8f5e69de7);
+            
+        
+
+        circle_marker_254b54a5fe3424de5ea11396830063a1.bindPopup(popup_7ff0ebdaf1bb71cd8cf6080a4f970c3e)
+        ;
+
+        
+    
+    
+            var circle_marker_3827308b5baf9a54f210a1c95c0f520c = L.circleMarker(
+                [3.242466772, 101.6462759],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_60601dadb398d46265510434ac09101b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_617baf65a3c79199408f702e0d4cd834 = $(`<div id="html_617baf65a3c79199408f702e0d4cd834" style="width: 100.0%; height: 100.0%;">Name: Hospital Selayang<br> Type: General Hospital<br> Address: Hospital Selayang, Lebuhraya Selayang - Kepong, 68100 Batu Caves, Selangor<br> Telephone: 03-61203233<br> Website: http://hselayang.moh.gov.my<br> </div>`)[0];
+                popup_60601dadb398d46265510434ac09101b.setContent(html_617baf65a3c79199408f702e0d4cd834);
+            
+        
+
+        circle_marker_3827308b5baf9a54f210a1c95c0f520c.bindPopup(popup_60601dadb398d46265510434ac09101b)
+        ;
+
+        
+    
+    
+            var circle_marker_f030911b86d34bdab84c20730805927b = L.circleMarker(
+                [2.976774318, 101.7200179],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_db0321e95960db813bc6458ebbcdc14b = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_bec18cbb842acc34e9fabba0264134f3 = $(`<div id="html_bec18cbb842acc34e9fabba0264134f3" style="width: 100.0%; height: 100.0%;">Name: Hospital Serdang<br> Type: General Hospital<br> Address: Jalan Puchong, 43000 Kajang, Selangor<br> Telephone: 03-89475555<br> Website: http://hserdang.moh.gov.my<br> </div>`)[0];
+                popup_db0321e95960db813bc6458ebbcdc14b.setContent(html_bec18cbb842acc34e9fabba0264134f3);
+            
+        
+
+        circle_marker_f030911b86d34bdab84c20730805927b.bindPopup(popup_db0321e95960db813bc6458ebbcdc14b)
+        ;
+
+        
+    
+    
+            var circle_marker_0a05aaa0be9a07b990decbe4ed26c044 = L.circleMarker(
+                [3.071486112, 101.4898863],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_33d97476013961124a6e867a948fdde2 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_c6797d2b4d068ef8097cf51658198f75 = $(`<div id="html_c6797d2b4d068ef8097cf51658198f75" style="width: 100.0%; height: 100.0%;">Name: Hospital Shah Alam<br> Type: General Hospital<br> Address: Persiaran Kayangan, Seksyen 7, 40000 Shah Alam, Selangor<br> Telephone: 03-5526 3000<br> Website: https://hsas.moh.gov.my/<br> </div>`)[0];
+                popup_33d97476013961124a6e867a948fdde2.setContent(html_c6797d2b4d068ef8097cf51658198f75);
+            
+        
+
+        circle_marker_0a05aaa0be9a07b990decbe4ed26c044.bindPopup(popup_33d97476013961124a6e867a948fdde2)
+        ;
+
+        
+    
+    
+            var circle_marker_fe9cfb1ba1340d4a86a175c4e2e721a3 = L.circleMarker(
+                [3.221250315, 101.582628],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_83a514a0d42ebf799d244579d19b565e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_6f4d0e1a487f6926ec456a6c88131cd1 = $(`<div id="html_6f4d0e1a487f6926ec456a6c88131cd1" style="width: 100.0%; height: 100.0%;">Name: Hospital Sungai Buloh<br> Type: General Hospital<br> Address: Jalan Hospital, 47000 Sungai Buloh, Selangor<br> Telephone: 03-61454333<br> Website: http://hsgbuloh.moh.gov.my<br> </div>`)[0];
+                popup_83a514a0d42ebf799d244579d19b565e.setContent(html_6f4d0e1a487f6926ec456a6c88131cd1);
+            
+        
+
+        circle_marker_fe9cfb1ba1340d4a86a175c4e2e721a3.bindPopup(popup_83a514a0d42ebf799d244579d19b565e)
+        ;
+
+        
+    
+    
+            var circle_marker_8ec423c355ca6c9bed668a5eef1231c2 = L.circleMarker(
+                [3.396116464, 101.2176171],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_792bdc0c878c3e42854e3632e66e9d9c = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_970e7f2bdaaa4d53815815e77cb42876 = $(`<div id="html_970e7f2bdaaa4d53815815e77cb42876" style="width: 100.0%; height: 100.0%;">Name: Hospital Tanjung Karang<br> Type: General Hospital<br> Address: KM8, Jalan Sungai Terap 5, 45500 Tanjong Karang, Selangor<br> Telephone: 03-32698333<br> Website: https://jknselangor.moh.gov.my/htgkarang/<br> </div>`)[0];
+                popup_792bdc0c878c3e42854e3632e66e9d9c.setContent(html_970e7f2bdaaa4d53815815e77cb42876);
+            
+        
+
+        circle_marker_8ec423c355ca6c9bed668a5eef1231c2.bindPopup(popup_792bdc0c878c3e42854e3632e66e9d9c)
+        ;
+
+        
+    
+    
+            var circle_marker_71a17bb1a101161916b1d04506b2d065 = L.circleMarker(
+                [3.759257477, 100.9892948],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_87dfc15eeae6ed3fbf1a24cffd0788eb = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_76ff641b225ae46cc568ed0f51cee3af = $(`<div id="html_76ff641b225ae46cc568ed0f51cee3af" style="width: 100.0%; height: 100.0%;">Name: Hospital Tengku Ampuan Jemaah<br> Type: General Hospital<br> Address: Jalan Hospital, 45200 Sabak, Selangor<br> Telephone: 03-32163333<br> Website: http://htaj.moh.gov.my<br> </div>`)[0];
+                popup_87dfc15eeae6ed3fbf1a24cffd0788eb.setContent(html_76ff641b225ae46cc568ed0f51cee3af);
+            
+        
+
+        circle_marker_71a17bb1a101161916b1d04506b2d065.bindPopup(popup_87dfc15eeae6ed3fbf1a24cffd0788eb)
+        ;
+
+        
+    
+    
+            var circle_marker_755d0ccd92767404607d1ff0d87ec553 = L.circleMarker(
+                [3.023755676, 101.4384655],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_9e7147ed97f2279490fd18cf96e3a6f9 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_462b597090817206a1db23cf38d1c960 = $(`<div id="html_462b597090817206a1db23cf38d1c960" style="width: 100.0%; height: 100.0%;">Name: Hospital Tengku Ampuan Rahimah<br> Type: General Hospital<br> Address: Jalan Langat,41200 Klang Klang, Selangor<br> Telephone: 03-33757000<br> Website: http://htar.moh.gov.my<br> </div>`)[0];
+                popup_9e7147ed97f2279490fd18cf96e3a6f9.setContent(html_462b597090817206a1db23cf38d1c960);
+            
+        
+
+        circle_marker_755d0ccd92767404607d1ff0d87ec553.bindPopup(popup_9e7147ed97f2279490fd18cf96e3a6f9)
+        ;
+
+        
+    
+    
+            var circle_marker_8130131a525070a5a45b026831905f6a = L.circleMarker(
+                [3.170141433, 101.7028599],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_39028c0b10a410c0cd62665147d461e5 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_ba87203e7af4485c0bc88eea21e84dcb = $(`<div id="html_ba87203e7af4485c0bc88eea21e84dcb" style="width: 100.0%; height: 100.0%;">Name: Hospital Tunku Azizah (Wanita Dan Kanak-Kanak)<br> Type: General Hospital<br> Address: Lot 25, Jalan Raja Muda Abdul Aziz, Kampung Baru, 50300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur<br> Telephone: 03-26003000<br> Website: http://hkl.moh.gov.my/index.php/institusi/hospital-tunku-azizah-hta<br> </div>`)[0];
+                popup_39028c0b10a410c0cd62665147d461e5.setContent(html_ba87203e7af4485c0bc88eea21e84dcb);
+            
+        
+
+        circle_marker_8130131a525070a5a45b026831905f6a.bindPopup(popup_39028c0b10a410c0cd62665147d461e5)
+        ;
+
+        
+    
+    
+            var circle_marker_f2ca40e6269e81e6f9afc96b619e1997 = L.circleMarker(
+                [3.175694432, 101.6991888],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_89d6685986040ed884eca52eca6deaa7 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_8b0f4b4daed44e09b5f03fda31b28ae8 = $(`<div id="html_8b0f4b4daed44e09b5f03fda31b28ae8" style="width: 100.0%; height: 100.0%;">Name: Institut Perubatan Respiratori<br> Type: Specialist Hospital<br> Address: Jalan Pahang, Pekeliling, 53000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur<br> Telephone: 03-40232966<br> Website: https://www.moh.gov.my/index.php/pages/view/291<br> </div>`)[0];
+                popup_89d6685986040ed884eca52eca6deaa7.setContent(html_8b0f4b4daed44e09b5f03fda31b28ae8);
+            
+        
+
+        circle_marker_f2ca40e6269e81e6f9afc96b619e1997.bindPopup(popup_89d6685986040ed884eca52eca6deaa7)
+        ;
+
+        
+    
+    
+            var circle_marker_08c663f08da11b73cb930e1b072d0059 = L.circleMarker(
+                [3.169687018, 101.7023083],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_40f65f57098a13015f20a6345c67dca4 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_d95b6e051180d7a78a4ea742e520cc80 = $(`<div id="html_d95b6e051180d7a78a4ea742e520cc80" style="width: 100.0%; height: 100.0%;">Name: Paediatric Institute Hospital Kuala Lumpur<br> Type: Specialist Hospital<br> Address: Jalan Masjid Hospital, 50586 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur<br> Telephone: 03-26155555<br> Website: nan<br> </div>`)[0];
+                popup_40f65f57098a13015f20a6345c67dca4.setContent(html_d95b6e051180d7a78a4ea742e520cc80);
+            
+        
+
+        circle_marker_08c663f08da11b73cb930e1b072d0059.bindPopup(popup_40f65f57098a13015f20a6345c67dca4)
+        ;
+
+        
+    
+    
+            var circle_marker_a22ab76fa4d0b154e15d08299bb51313 = L.circleMarker(
+                [3.222783734, 101.5840937],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_af0ac853a80f4a2c07f0b0838fc41de2 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_10030f10f48a5c44b32c59d8a46b3d84 = $(`<div id="html_10030f10f48a5c44b32c59d8a46b3d84" style="width: 100.0%; height: 100.0%;">Name: Pusat Kawalan Kusta Negara Hospital Sungai Buloh<br> Type: General Hospital<br> Address: Jalan Hospital, 47000 Sungai Buloh, Selangor<br> Telephone: 03-61561321<br> Website: https://jknselangor.moh.gov.my/hsgbuloh/ms/jabatan/pusat-kawalan-kusta-negara/pusat-kawalan-kusta-negara-pkkn.html<br> </div>`)[0];
+                popup_af0ac853a80f4a2c07f0b0838fc41de2.setContent(html_10030f10f48a5c44b32c59d8a46b3d84);
+            
+        
+
+        circle_marker_a22ab76fa4d0b154e15d08299bb51313.bindPopup(popup_af0ac853a80f4a2c07f0b0838fc41de2)
+        ;
+
+        
+    
+    
+            var circle_marker_3f11cbbdeaab5be5396d2d4e0d9cb218 = L.circleMarker(
+                [3.116431237, 101.6506942],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_91a7573c2b37b0d301e20e6c50c15e4e = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_0cec2e20f98d13d8aba50f3ee51ce1f8 = $(`<div id="html_0cec2e20f98d13d8aba50f3ee51ce1f8" style="width: 100.0%; height: 100.0%;">Name: UM Specialist Centre (UMSC)<br> Type: Specialist Hospital<br> Address: UMSC, Lot 28, Lorong Universiti, Lembah Pantai, 50603 Kuala Lumpur<br> Telephone: 03-78414000<br> Website: https://umsc.my/<br> </div>`)[0];
+                popup_91a7573c2b37b0d301e20e6c50c15e4e.setContent(html_0cec2e20f98d13d8aba50f3ee51ce1f8);
+            
+        
+
+        circle_marker_3f11cbbdeaab5be5396d2d4e0d9cb218.bindPopup(popup_91a7573c2b37b0d301e20e6c50c15e4e)
+        ;
+
+        
+    
+    
+            var circle_marker_5e90dcddea2b984b12712c7983d9a5ac = L.circleMarker(
+                [3.112938803, 101.6517779],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_cee0329bab5448e4cb0df94b32a7774c = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_cf1c6549e14da8bb0c99d22f1b65f542 = $(`<div id="html_cf1c6549e14da8bb0c99d22f1b65f542" style="width: 100.0%; height: 100.0%;">Name: University Malaya Medical Centre<br> Type: Specialist Hospital<br> Address: Jln Profesor Diraja Ungku Aziz, Seksyen 13, 50603 Petaling Jaya, Selangor<br> Telephone: 03-79494422<br> Website: https://www.ummc.edu.my/<br> </div>`)[0];
+                popup_cee0329bab5448e4cb0df94b32a7774c.setContent(html_cf1c6549e14da8bb0c99d22f1b65f542);
+            
+        
+
+        circle_marker_5e90dcddea2b984b12712c7983d9a5ac.bindPopup(popup_cee0329bab5448e4cb0df94b32a7774c)
+        ;
+
+        
+    
+    
+            var circle_marker_9d538167feca0d23433daf5c0a68443d = L.circleMarker(
+                [3.098401734, 101.7261108],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_02965543ce4b5ac46a0c0e295987c359 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_486a7696c708fefbcd3de91248157dd0 = $(`<div id="html_486a7696c708fefbcd3de91248157dd0" style="width: 100.0%; height: 100.0%;">Name: UKM Specialist Centre (UKMSC)<br> Type: Specialist Hospital<br> Address: Jalan Yaacob Latif Level 7 HCTM UKM, Bandar Tun Razak, 56000 Cheras, Wilayah Persekutuan Kuala Lumpur<br> Telephone: 03-91749222<br> Website: http://www.ukmsc.com.my/<br> </div>`)[0];
+                popup_02965543ce4b5ac46a0c0e295987c359.setContent(html_486a7696c708fefbcd3de91248157dd0);
+            
+        
+
+        circle_marker_9d538167feca0d23433daf5c0a68443d.bindPopup(popup_02965543ce4b5ac46a0c0e295987c359)
+        ;
+
+        
+    
+    
+            var circle_marker_fc935e202f6bb737829c1e202adeee82 = L.circleMarker(
+                [2.92005803, 101.6307339],
+                {"bubblingMouseEvents": true, "color": "#273746", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#273746", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_e88d225bb865a05766119ffbda51e5ce);
+        
+    
+        var popup_9f860dcde11306c953156653f09e2fc3 = L.popup({"maxWidth": 300, "minWidth": 300});
+
+        
+            
+                var html_7d79b51ea9c023c890f0bd3e2f3c7413 = $(`<div id="html_7d79b51ea9c023c890f0bd3e2f3c7413" style="width: 100.0%; height: 100.0%;">Name: Hospital Cyberjaya<br> Type: General Hospital<br> Address: Persiaran Multimedia, Cyber 11, 63000 Cyberjaya, Selangor<br> Telephone: 03-83124200<br> Website: nan<br> </div>`)[0];
+                popup_9f860dcde11306c953156653f09e2fc3.setContent(html_7d79b51ea9c023c890f0bd3e2f3c7413);
+            
+        
+
+        circle_marker_fc935e202f6bb737829c1e202adeee82.bindPopup(popup_9f860dcde11306c953156653f09e2fc3)
+        ;
+
+        
+    
+</script>
+</html>

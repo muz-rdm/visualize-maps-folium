@@ -11,7 +11,7 @@ Visualize maps using Folium package and different basemap styles.
 OSM Basemap
 ![alt text](https://github.com/muz-rdm/Visualize-Maps-Folium/blob/main/image/Public_Hospital_OSM.png?raw=true)
 
- Terrain
+ Terrain Basemap
 ![alt text](https://github.com/muz-rdm/Visualize-Maps-Folium/blob/main/image/Public_Hospital_Stamen_Terrain.png?raw=true)
 
 ESRI Satellite Basemap
